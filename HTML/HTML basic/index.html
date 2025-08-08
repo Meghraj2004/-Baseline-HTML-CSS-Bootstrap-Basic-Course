@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple website using all HTML tags and attributes">
+    <title>HTML Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id="top" class="homepage" data-theme="light">
+    <header>
+        <h1 title="Main Heading">Welcome to My Simple Website</h1>
+        <img src="https://static.vecteezy.com/system/resources/previews/013/313/458/non_2x/html-icon-3d-rendering-illustration-vector.jpg"
+            alt="Placeholder Image" width="150" height="150" loading="lazy">
+        <p><abbr title="HyperText Markup Language">HTML</abbr> Demo</p>
+    </header>
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="#about" accesskey="a">About</a></li>
+            <li><a href="#gallery" accesskey="g">Gallery</a></li>
+            <li><a href="#contact" accesskey="c">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>This is a <strong>simple</strong> website demonstrating <em>various</em> HTML tags and attributes.</p>
+            <details>
+                <summary>More Info</summary>
+                <p>HTML stands for <mark>HyperText Markup Language</mark>.</p>
+            </details>
+            <blockquote cite="https://developer.mozilla.org/">
+                "HTML is the standard markup language for creating Web pages."
+            </blockquote>
+            <address>
+                Written by <a href="mailto:megharajdandgavhal2004@gmail.com">Megharaj Dandgavhal</a>.<br>
+                Visit us at:<br>
+                Pachora<br>
+                Jalgaon<br>
+                India
+            </address>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <figure>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRga11dMKdZJp9_fl2VN6xLOuxwbRwS50xIzw&s"
+                    alt="Sample Image" width="100" height="100">
+                <figcaption>Sample Image 1</figcaption>
+            </figure>
+            <figure>
+                <img src="https://media.licdn.com/dms/image/v2/D5622AQE5jJBXbdYAQA/feedshare-shrink_800/B56ZVmYd.lGsAk-/0/1741179452127?e=2147483647&v=beta&t=AdK9yG6gfM4RNhAWh3CgoZJpBPr43m1NxSe1gvHL6FI"
+                    alt="Sample Image" width="100" height="100">
+                <figcaption>Sample Image 2</figcaption>
+            </figure>
+        </section>
+        <section id="table">
+            <h2>Sample Table</h2>
+            <style>
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                }
+
+                th,
+                td {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    text-align: left;
+                }
+
+                th {
+                    background-color: #f2f2f2;
+                }
+            </style>
+            <table>
+                <caption>HTML Table Example</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Age</th>
+                        <th scope="col">City</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alice</td>
+                        <td>25</td>
+                        <td>New York</td>
+                    </tr>
+                    <tr>
+                        <td>Bob</td>
+                        <td>30</td>
+                        <td>London</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="form">
+            <h2>Contact Form</h2>
+            <form action="#" method="post" autocomplete="on" enctype="multipart/form-data">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name"><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob"><br>
+                <label for="color">Favorite Color:</label>
+                <input type="color" id="color" name="color"><br>
+                <label for="file">Upload File:</label>
+                <input type="file" id="file" name="file"><br>
+                <input type="checkbox" id="subscribe" name="subscribe" checked>
+                <label for="subscribe">Subscribe to newsletter</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+        <section id="list">
+            <h2>Lists</h2>
+            <ol type="A" start="2">
+                <li>First item</li>
+                <li>Second item</li>
+            </ol>
+            <ul type="square">
+                <li>Apple</li>
+                <li>Banana</li>
+            </ul>
+            <dl>
+                <dt>HTML</dt>
+                <dd>HyperText Markup Language</dd>
+                <dt>CSS</dt>
+                <dd>Cascading Style Sheets</dd>
+            </dl>
+        </section>
+        <section id="code">
+            <p>My birthday is on the 17<sup>th</sup> of Aug 2004.</p>
+            <p>
+                Caffeine's chemical formula is
+                C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>.
+            </p>
+            <p>If x<sup>2</sup> is 9, x must equal 3 or -3.</p>
+
+        </section>
+    </main>
+    <aside>
+        <h3>Related Links</h3>
+        <ul>
+            <li><a href="https://developer.mozilla.org/" target="_blank" rel="noopener">MDN Web Docs</a></li>
+            <li><a href="https://meghportfolio  .onrender.com/" target="_blank" rel="noopener">W3Schools</a></li>
+        </ul>
+    </aside>
+    <footer>
+
+        <a href="#top">Back to top</a>
+    </footer>
+</body>
+
+</html>
