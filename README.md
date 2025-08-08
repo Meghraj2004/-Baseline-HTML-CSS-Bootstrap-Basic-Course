@@ -17,8 +17,18 @@ This repository showcases my hands-on learning from a beginner-level course on *
 
 ```bash
 📦 baseline-web-course/
-├── html-basics/
-├── css-basics/
-├── bootstrap-basics/
-├── mini-projects/
-└── README.md
+├── mini-project/
+│   ├── about.html
+│   ├── contact.html
+│   ├── index.html
+│   └── style.css
+│
+├── New folder/
+│   └── index.html
+│
+├── portfolio/
+│   ├── index.html
+│   ├── megharaj.html
+│   ├── megharaj.css
+│   └── style.css
+
